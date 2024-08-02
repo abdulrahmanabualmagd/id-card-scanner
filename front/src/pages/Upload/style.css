@@ -1,0 +1,13 @@
+.uploadPage {
+    background-color: var(--neutral-low);
+}
+
+.uploadPage .uploadFormWrapper {
+    max-width: 20rem;
+}
+
+@media (min-width: 576px) {
+    .uploadPage .uploadFormWrapper {
+        width: 500px;
+    }
+}

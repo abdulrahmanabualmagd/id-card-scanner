@@ -1,0 +1,33 @@
+.breadcrumb {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.breadcrumb-item {
+    margin-right: 0.5rem;
+}
+
+.breadcrumb-item>* {
+    color: var(--neutral-main);
+}
+
+.breadcrumb-item>*:hover {
+    color: var(--neutral-high);
+    border-bottom: 1px solid var(--neutral-high);
+}
+
+.breadcrumb .active {
+    color: var(--neutral-high);
+}
+
+/* Breadcrumb Separator */
+.breadcrumb-item::after {
+    content: ">";
+    margin-left: 0.5rem;
+    color: var(--neutral-main);
+}
+
+.breadcrumb-item:last-child::after {
+    content: "";
+}

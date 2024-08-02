@@ -1,0 +1,4 @@
+* {
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: var(--neutral-main) var(--neutral-low); /* Thumb color and track color */
+}

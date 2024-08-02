@@ -1,0 +1,2 @@
+export { capitalizeFirstLetter } from "./capitalzingFirstLetter";
+

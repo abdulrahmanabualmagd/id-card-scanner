@@ -1,0 +1,22 @@
+.submitPage {
+    background-color: var(--neutral-low);
+}
+
+.submitPage .fieldsSubmitWrapper {
+    width: 20rem;
+    height: auto;
+    min-height: 27rem;
+}
+
+@media (min-width: 576px) {
+    .submitPage .fieldsSubmitWrapper {
+        width: 95%;
+        max-width: 40rem;
+    }
+}
+@media (min-width: 768px) {
+    .submitPage .fieldsSubmitWrapper {
+        width: 95%;
+        max-width: 50rem;
+    }
+}

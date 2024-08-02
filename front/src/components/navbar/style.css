@@ -1,0 +1,58 @@
+.navbar {
+    letter-spacing: .1rem;
+}
+
+/* Logo */
+.navbar img {
+    width: 3rem;
+}
+
+.hiddenMenu {
+    position: absolute;
+    top: 0;
+    background-color: var(--primary-high);
+    transition: ease-out 300ms;
+    z-index: 2;
+}
+
+
+.hideMenu {
+    right: 100vw;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.showMenu {
+    right: 0;
+}
+
+.hiddenMenu li{
+    border-bottom: 1px solid var(--primary-main);
+}
+
+.hiddenMenu li:hover {
+    border-bottom: 1px solid var(--primary-main-hover);
+}
+
+.navbar a {
+    position: relative;
+}
+
+.colorHover:hover {
+    color: var(--secondary-main);
+}
+
+.bottomLineHover::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    border-bottom: 3px solid var(--white);
+    width: 0;
+    transition: ease-out 400ms;
+}
+
+.bottomLineHover:hover::after {
+    width: 100%;
+    /* Full width on hover */
+}

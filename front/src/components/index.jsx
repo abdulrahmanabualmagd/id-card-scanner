@@ -1,0 +1,14 @@
+export { default as FooterComponent } from "./footer/footerComponent";
+export { default as HeaderComponent } from "./header/headerComponent";
+export { default as NavbarComponent } from "./navbar/navbarComponent";
+export { default as HeroComponent } from "./sections/hero/heroComponent";
+export { default as FeatureComponent } from "./sections/feature/featureComponent";
+export { default as ContactComponent } from "./sections/contact/contactComponent";
+export { default as AnimatedFade } from "./animatedFade/animatedFade";
+export { default as LoginFormComponent } from "./form/login/loginFormComponent";
+export { default as RegisterFormComponent } from "./form/register/registerFormComponent";
+export { default as BreadcrumbComponent } from "./breadcrumb/breadcrumbComponent";
+export { default as UploadIDFormComponent } from "./form/UploadIDForm/uploadIdForm";
+export { default as PreviewIDFormComponent } from "./form/PreviewIDForm/previewIDFormComponent";
+export { default as FieldsSubmitComponent } from "./form/fieldsSubmit/fieldsSubmitComponent";
+export { default as InputFieldComponent } from "./form/inputField/inputFieldComponent";

@@ -1,0 +1,226 @@
+:root {
+  --animation-duration: 500ms;
+  --animation-transition: ease-out;
+  --animation-translation: 30%
+}
+
+/* Entrance Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn var(--animation-duration) var(--animation-transition);
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out {
+  animation: fadeOut var(--animation-duration) var(--animation-transition);
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(var(--animation-translation));
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-up {
+  animation: slideUp var(--animation-duration) var(--animation-transition);
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(var(--animation-translation));
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-left {
+  animation: slideLeft var(--animation-duration) var(--animation-transition);
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(calc(-1 * var(--animation-translation)));
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-down {
+  animation: slideDown var(--animation-duration) var(--animation-transition);
+}
+
+/* Looping Animations */
+@keyframes shake {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  20%,
+  60% {
+    transform: translateX(-10px);
+  }
+
+  40%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+
+.shake {
+  animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes floating {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.floating {
+  animation: floating 3s var(--animation-transition) infinite;
+}
+
+@keyframes heartbeat {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  14%,
+  28%,
+  42%,
+  70% {
+    transform: scale(1.3);
+  }
+}
+
+.heartbeat {
+  animation: heartbeat 1.5s var(--animation-transition) infinite;
+}
+
+/* Slide in from left */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(calc(-1 * var(--animation-translation)));
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Apply animation when in view */
+.slide-in-left {
+  animation: slideInLeft var(--animation-duration) ease-out forwards;
+}
+
+/* Slide in from right */
+@keyframes slideInRight {
+  from {
+    transform: translateX(var(--animation-translation));
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-right {
+  animation: slideInRight var(--animation-duration) ease-out forwards;
+}
+
+
+@keyframes slideOutLeft {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(calc(-1 * var(--animation-translation)));
+    opacity: 0;
+  }
+}
+
+.slide-out-left {
+  animation: slideOutLeft var(--animation-duration) ease-out forwards;
+}
+
+/* Slide out to right */
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(var(--animation-translation));
+    opacity: 0;
+  }
+}
+
+.slide-out-right {
+  animation: slideOutRight var(--animation-duration) ease-out forwards;
+}

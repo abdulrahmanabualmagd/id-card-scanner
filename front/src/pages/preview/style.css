@@ -1,0 +1,14 @@
+.previewPage {
+    background-color: var(--neutral-low);
+}
+
+.previewPage .previewFormWrapper {
+    max-width: 20rem;
+    min-height: 25rem;
+}
+
+@media (min-width: 576px) {
+    .previewPage .previewFormWrapper {
+        width: 500px;
+    }
+}   

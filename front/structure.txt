@@ -1,0 +1,37 @@
+[Pages] 
+        1- Landing Page
+    2- Upload Page
+    3- Extraction/Scan Page
+    4- Result/Confirmation or modify it Page
+    5- Error/Feedback Page
+    6- Login Page (optional)
+    7- Register Page (optional)
+
+[Components]
+    1- Navbar Component & Landing Page Sections
+    2- File/ImageUpload Component
+    3- Image Preview/Cropper Component
+    4- Scanner Component 
+    5- InputField Component 
+    6- SubmitButton Component
+    7- LoginForm Component
+    8- RegisterForm Component
+
+[Features]
+    1- Image Upload
+    2- Image Cropping
+    3- Image Scanning
+    4- Data Display 
+    5- Error Handling 
+    6- Select between IDs Types (Passport, Driver License, ...)
+    7- Type of Information (
+        - Surname
+        - Given name
+        - Date of birth
+        - Nationlity
+        - Document No
+        - Date of issue
+        - Date of expiry
+        - Sex
+    )
+ 

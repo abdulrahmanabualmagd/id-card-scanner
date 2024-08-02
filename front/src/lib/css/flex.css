@@ -1,0 +1,205 @@
+/* flex-justify-align */
+.d-flex {
+  display: flex;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.flex-nowrap{
+  flex-wrap: nowrap;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+/* ----------------------------------- Used in rows ----------------------------------- */
+.flex-c-c {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-b-c {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-e-c {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-s-c {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-e-c {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* ----------------------------------- Used in Columns ----------------------------------- */
+.flex-c-s {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flex-c-e {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.flex-c-b {
+  justify-content: center;
+  align-items: baseline;
+}
+
+.flex-c-s {
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* ----------------------------------- Common ----------------------------------- */
+.flex-s-s {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-s-e {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.flex-s-b {
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.flex-s-s {
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+/* ----------------------------------- Common ----------------------------------- */
+.flex-e-s {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.flex-e-e {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-e-b {
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.flex-e-s {
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
+/* ----------------------------------- Common ----------------------------------- */
+.flex-b-s {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.flex-b-e {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.flex-b-b {
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.flex-b-s {
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+/* ----------------------------------- Common ----------------------------------- */
+.flex-a-s {
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.flex-a-e {
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex-a-b {
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.flex-a-s {
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+/* ----------------------------------- Common ----------------------------------- */
+.flex-e-s {
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.flex-e-e {
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.flex-e-b {
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.flex-e-s {
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+/* ----------------------------------- Shrink/Grow ----------------------------------- */
+/* flex-grow */
+.flex-grow-0 {
+  flex-grow: 0;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.flex-grow-2 {
+  flex-grow: 2;
+}
+
+.flex-grow-3 {
+  flex-grow: 3;
+}
+
+/* flex-shrink */
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.flex-shrink-1 {
+  flex-shrink: 1;
+}
+
+.flex-shrink-2 {
+  flex-shrink: 2;
+}
+
+.flex-shrink-3 {
+  flex-shrink: 3;
+}
+
+

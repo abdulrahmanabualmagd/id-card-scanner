@@ -1,0 +1,19 @@
+set aliases for directories(contexts, pages, components, helpers, routes, style, my css)
+set routes using (createBrowserRouter) and used routerProvider 
+created the authContext that provides login/logout methods, and authToken 
+set private route that use authcontext to check for the existance of the token in cookies
+
+Use Validator for form validation and complete login/register forms
+Setup auxios for making http requests with the back server and Complete the login/register operation
+what are the differences between using auxios and normal fetch 
+
+not found svg not working 
+
+1 uploadPage to upload an image
+2 previewPage to display the uploaded image 
+3 scan page must show me the result page which contains all fields of informatinon
+
+
+preview button on upload page must check for the file first and navigate to the preview page $$
+
+I have completed the upload, preview, file context 

@@ -1,0 +1,15 @@
+.contact{
+    background-color: var(--primary-high);
+}
+
+.contact *{
+    color: var(--white);
+}
+
+.contact img{
+    border-radius: .3rem;
+}
+
+.contactbutton{
+    box-shadow: 0 0 6px var(--tertiary-main);
+}

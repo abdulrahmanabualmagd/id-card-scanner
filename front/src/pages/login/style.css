@@ -1,0 +1,14 @@
+.loginPage{
+    background-color: var(--neutral-bg);
+}
+
+
+.loginPage .loginFormWrapper {
+    max-width: 25rem;
+}
+
+@media (min-width: 576px) {
+    .loginPage .loginFormWrapper {
+        width: 750px;
+    }
+}

@@ -1,0 +1,103 @@
+/* Relative font sizes */
+.font-xs { font-size: 0.75rem; }
+.font-sm { font-size: 0.875rem; }
+.font-md { font-size: 1rem; }
+.font-lg { font-size: 1.125rem; }
+.font-xl { font-size: 1.25rem; }
+.font-xxl { font-size: 1.5rem; }
+.font-xxxl { font-size: 2rem; }
+
+/* ----------------------------- Position ----------------------------- */
+.t-center{
+  text-align: center;
+}
+
+.t-left{
+  text-align: left;
+}
+
+.t-right{
+  text-align: right;
+}
+
+/* ----------------------------- Color----------------------------- */
+.t-primary-main{
+  color: var(--primary-main);
+}
+.t-primary-high{
+  color: var(--primary-high);
+}
+.t-primary-mid{
+  color: var(--primary-mid);
+}
+.t-primary-low{
+  color: var(--primary-low);
+}
+
+.t-neutral-high{
+  color: var(--neutral-high);
+}
+.t-neutral-main{
+  color: var(--neutral-main);
+}
+.t-neutral-mid{
+  color: var(--neutral-mid);
+}
+.t-neutral-low{
+  color: var(--neutral-low);
+}
+
+/* ----------------------------- Style ----------------------------- */
+.bold{
+  font-weight: bold;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.link{
+  text-decoration: underline;
+  color: var(--link-main);
+  cursor: pointer;
+}
+
+.neutral-main{
+  color: var(--neutral-main);
+}
+
+.t-black{
+  color: var(--black);
+}
+
+.t-white{
+  color: var(--white);
+}
+
+
+/* ----------------------------------- Line Height ----------------------------------- */
+
+/* Line Height Utilities */
+.lh-1 {
+  line-height: 1;
+}
+
+.lh-2 {
+  line-height: 1.25;
+}
+
+.lh-3 {
+  line-height: 1.5;
+}
+
+.lh-4 {
+  line-height: 1.75;
+}
+
+.lh-5 {
+  line-height: 2;
+}
+
+.lh-normal {
+  line-height: normal;
+}

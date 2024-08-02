@@ -1,0 +1,62 @@
+.upper{
+    background-color: var(--primary-main);
+}
+
+/* Handle position on lg screens  */
+@media (min-width: 1200px) {
+    .upper ul{
+        justify-content: flex-end;
+    }
+
+    .upper .upperText{
+        text-align: left;
+    }
+}
+
+
+.upper img{
+    width: 1.3rem ;
+    height: auto;
+}
+
+.middle{
+    background-color: var(--primary-high);
+    min-height: 15rem;
+}
+
+.middle > div > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 15rem;
+}
+
+.lower{
+    background-color: var(--neutral-high);
+}
+
+
+.footer * {
+    color: white;
+    font-size: .9rem;
+}
+
+.heading{
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.heading::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 5rem;
+    border-bottom: .1rem solid #6351ce;
+}
+
+.content ul li{
+    padding: .4rem 0;
+}
