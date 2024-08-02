@@ -8,7 +8,7 @@ export default function FeatureComponent() {
             <AnimatedFade animation="fade-in" className="d-flex flex-c-c">
                 <img src={Features} alt="" />
             </AnimatedFade>
-            <AnimatedFade animation="slide-up" className="d-flex flex-column child-my-3 flex-c-s pl-5">
+            <AnimatedFade animation="slide-up" className="d-flex flex-column child-my-3 flex-c-s pl-1">
                 <div className="title font-xxxl bold italic">Benefits of Using Our ID Scanner</div>
                 <div className="text">
                     Experience the difference our ID scanner can make for your organization. Our interface ensure a
