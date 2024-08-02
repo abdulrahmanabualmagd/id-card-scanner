@@ -993,3 +993,5 @@ back/images/*.svg
 back/images/*.webp
 
 *.traineddata
+
+dist/
