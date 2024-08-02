@@ -6,6 +6,9 @@ A full-stack application built with Node.js and React. The app allows users to u
 
 ## Demo
 
+https://github.com/user-attachments/assets/206290d1-15b8-4787-baaa-3d99a7ebfd10
+
+
 
 ## Features
 
